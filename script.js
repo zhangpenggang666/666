@@ -1,6 +1,6 @@
 function sayHello() {
     alert("为我们伊一点赞一次");
-    alert("点赞总次数为'like()'次");
+    alert("点赞总次数为'like'次");
      let likes = 0;
 
     function like() {
