@@ -22,6 +22,22 @@
   <h1>你好，伊一！</h1>
   <p>二岁小宝宝开心的每一天。</p>
 </body>
+  <body>
+<h1>为我们伊一点个赞吧！</h1>
+  <button onclick="sayHello()">👍 点赞</button>
+  <div id="count">点赞数：0</div>
+
+  <script>
+    let likes = 0;
+
+    function sayHello() {
+      alert("为我们伊一点赞一次");
+      likes++;
+      alert("点赞总次数为 " + likes + " 次");
+      document.getElementById("count").innerText = "点赞数：" + likes;
+    }
+  </script>
+</body>
 </html>
 <button onclick="sayHello()">点击我</button>
 <script src="script.js"></script>
