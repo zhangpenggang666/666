@@ -8,5 +8,6 @@ function sayHello() {
     }
     <button onclick="like()">👍 点赞</button>
   <div id="count">点赞数：0</div>
+    alert("为伊一点赞次数"count"次");
   }
   
