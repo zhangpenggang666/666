@@ -1,4 +1,4 @@
 function sayHello() {
-    alert("你点击了按钮！");
+    alert("为我们伊一点赞一次");
   }
   
